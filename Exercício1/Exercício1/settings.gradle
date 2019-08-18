@@ -1,0 +1,2 @@
+include ':Exercicio1'
+include ':appcompat_v7'

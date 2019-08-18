@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exercicio1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Nome">Alan Turing</string>
+    <string name="alan">Alan Turing</string>
+    <string name="Von">John von Neumann</string>
+    
+</resources>

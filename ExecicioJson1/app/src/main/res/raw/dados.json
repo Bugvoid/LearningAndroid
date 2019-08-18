@@ -1,0 +1,30 @@
+{
+  "tempo": [
+    {
+		"id":"01",
+      "temp.min": "16.6 °C",
+      "temp.max": "19.7 °C"
+
+    },
+    {
+      "id": "02",
+		"temp.min": "16.5 °C",
+		"temp.max": "19.9 °C"
+    },
+    {
+		"id":"03",
+		"temp.min": "22.2 °C",
+		"temp.max": "23.6 °C"
+    },
+	  {
+		  "id":"04",
+		  "temp.min": "20.9 °C",
+		  "temp.max": "20.2 °C"
+	  },
+	  {
+		  "id":"05",
+		  "temp.min": "20.9 °C",
+		  "temp.max": "17.4 °C"
+	  }
+  ]
+}

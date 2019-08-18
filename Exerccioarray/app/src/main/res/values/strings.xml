@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Exercícioarray</string>
+    <string name="dd">dd</string>
+    <string name="editar">Editar</string>
+    <string name="nome">Nome</string>
+    <string name="nota_parcial">Nota Parcial</string>
+    <string name="trabalhos">Trabalhos</string>
+    <string name="nota_pri">Nota PRI</string>
+    <string name="rgm">RGM</string>
+    <string name="apagar">Apagar</string>
+    <string name="consultar">Consultar</string>
+    <string name="alterar">Alterar</string>
+
+    <string name="gravar">Gravar</string>
+    <string name="listar_todos">Listar Todos</string>
+    <string name="sobre">Sobre</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="_18036546">18036546</string>
+    <string name="_17811716">17811716</string>
+    <string name="_17779685">17779685</string>
+    <string name="lucas_pereira_de_souza">Lucas Pereira de Souza</string>
+    <string name="luan_castro_alves">Luan Castro Alves</string>
+    <string name="thiago_apolinario">Thiago Apolinario</string>
+
+
+</resources>

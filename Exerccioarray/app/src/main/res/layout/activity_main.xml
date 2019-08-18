@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Consultar"
+        android:layout_width="206dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="98dp"
+        android:drawableStart="@drawable/data_find"
+        android:onClick="AbrirConsultar"
+        android:orientation="vertical"
+        android:text="@string/consultar"
+        app:layout_constraintBottom_toTopOf="@+id/Alterar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Alterar"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="98dp"
+        android:drawableStart="@drawable/data_edit"
+        android:onClick="AbrirAlterar"
+        android:text="@string/alterar"
+        app:layout_constraintBottom_toTopOf="@+id/Apagar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Apagar"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="98dp"
+        android:drawableStart="@drawable/data_delete"
+        android:onClick="AbrirExcluir"
+        android:text="@string/apagar"
+        app:layout_constraintBottom_toTopOf="@+id/ListarTo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ListarTo"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="98dp"
+        android:drawableStart="@drawable/tables"
+        android:onClick="AbrirLista"
+        android:text="@string/listar_todos"
+        app:layout_constraintBottom_toTopOf="@+id/Sobre"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Sobre"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginStart="98dp"
+
+        android:drawableStart="@drawable/user"
+        android:onClick="AbrirSobre"
+        android:text="@string/sobre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Cadastrar"
+        android:layout_width="208dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="96dp"
+        android:drawableStart="@drawable/data_add"
+        android:onClick="AbrirCadastrar"
+        android:orientation="vertical"
+        android:text="@string/cadastrar"
+        app:layout_constraintBottom_toTopOf="@+id/Consultar"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

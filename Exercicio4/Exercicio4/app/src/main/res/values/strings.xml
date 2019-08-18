@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Exercicio4</string>
+    <string name="txtViewRGM">RGM:18036546</string>
+    <string name="txtViewNome">LUAN CASTRO ALVES</string>
+    <string name="txtViewPrincipal">PRINCIPAL</string>
+    <string name="txtViewAuto">AUTO</string>
+    <string name="txtViewPortateis">PORTATEIS</string>
+    <string name="txtViewEmpresarial">EMPRESARIAL</string>
+    <string name="txtViewResidencial">RESIDENCIAL</string>
+    <string name="txtViewViagem">VIAGEM</string>
+    <string name="btnPrinci">Principal</string>
+    <string name="btnAuto">Auto</string>
+    <string name="btnPortateis">Portateis</string>
+    <string name="btnEmpresarial">Empresarial</string>
+    <string name="btnResidencial">Residencial</string>
+    <string name="btnViagem">Viagem</string>
+</resources>
